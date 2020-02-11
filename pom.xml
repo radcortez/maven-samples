@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.radcortez.maven</groupId>
+    <artifactId>maven-samples</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>Maven Samples</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
+
+    <distributionManagement>
+        <repository>
+            <id>radcortez</id>
+            <name>radcortez-releases</name>
+            <url>http://localhost:8081/artifactory/ext-release-local</url>
+        </repository>
+    </distributionManagement>
+
+    <repositories>
+        <repository>
+            <id>radcortez</id>
+            <name>radcortez-releases</name>
+            <url>http://localhost:8081/artifactory/ext-release-local</url>
+        </repository>
+    </repositories>
+
+    <modules>
+        <module>jar-in-build</module>
+        <module>mediation</module>
+        <module>versions</module>
+        <module>scopes</module>
+    </modules>
+</project>
