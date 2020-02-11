@@ -15,10 +15,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.radcortez.maven.mediation</groupId>
+            <groupId>com.radcortez.maven.versions</groupId>
             <artifactId>version2</artifactId>
             <version>RELEASE</version>
-            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
