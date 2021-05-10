@@ -34,6 +34,7 @@
     </repositories>
 
     <modules>
+        <module>changes</module>
         <module>jar-in-build</module>
         <module>mediation</module>
         <module>versions</module>
