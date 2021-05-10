@@ -15,14 +15,13 @@
     <name>Jar In Build</name>
 
     <dependencies>
-<!--
         <dependency>
             <groupId>org.apache.openjpa</groupId>
             <artifactId>openjpa</artifactId>
             <version>2.4.0</version>
         </dependency>
--->
 
+        <!--
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
@@ -34,5 +33,6 @@
             <artifactId>openjpa</artifactId>
             <version>3.0.0</version>
         </dependency>
+        -->
     </dependencies>
 </project>
